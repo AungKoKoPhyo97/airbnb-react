@@ -1,0 +1,84 @@
+.image_grid {
+    width: 100%;
+    height: 450px;
+  }
+  .image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9,.image10{
+      object-fit: cover;
+      border-radius: 8.95px;
+  }
+  
+  .image1 {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    left: 100px;
+    top: 150px;
+  }
+  .image2 {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 350px;
+    top: 100px;
+  }
+  .image3 {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 350px;
+    top: 300px;
+  }
+  .image4 {
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    left: 600px;
+    top: 150px;
+  }
+  .image5 {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 850px;
+    top: 100px;
+  }
+  .image6 {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 850px;
+    top: 300px;
+  }
+  .image7 {
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    left: 1100px;
+    top: 114.08px;
+  }
+  .image8 {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 1350px;
+    top: 150px;
+  }
+  .image9 {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 1350px;
+    top: 350px;
+  }
+  .image10 {
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    left: 1600px;
+    top: 100px;
+  }
+  
+  .body_title,.body_text{
+   padding-left: 100px;
+  }
+  

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Appbar from './components/appbar';
+import UpperBody from './components/upper-body';
+import Card from './components/card';
+import cardData from './data/cardData';
 
 function App() {
+  const cardElements = cardData.map(data => {
+    return <Card
+      key={data.id}
+      {...data}
+    />;
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Appbar />
+      <UpperBody />
+      <div className="scroll" >
+        {cardElements}
+      </div>
     </div>
   );
 }
